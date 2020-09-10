@@ -28,4 +28,13 @@
     color: white;
     background-color: #000;
     cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+#notification {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(73, 68, 68);
 }
