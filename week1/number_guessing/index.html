@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Number Guessing</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div id="message">Choose number:</div>
-    <input type="number" id="yourNumber">
-    <button id="guessButton" onclick="myFunction()">Enter</button>
-    <h4>Your past guesses:</h4>
-    <h4 id="pastGuesses"></h4>
+    <div class="container">
+        <div id="message">Choose number</div>
+        <div class="wrapper">
+            <input type="number" id="yourNumber">
+            <button id="guessButton" onclick="myFunction()">Enter</button>
+        </div>
+        <hr />
+        <h4 style="text-align: center;font-family:Arial, sans-serif">Your past guesses</h4>
+        <hr />
+        <h4 id="pastGuesses"></h4>
+    </div>
+
     <script src="./main.js"></script>
 </body>
 </html>

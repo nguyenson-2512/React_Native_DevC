@@ -1,0 +1,31 @@
+.container {
+    width: 350px;
+    height: auto;
+    border: 1px solid gray;
+    margin: 0 auto
+}
+
+#message {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+#yourNumber {
+    margin-bottom: 5px;
+    border: 3px solid rgb(88, 58, 58);
+}
+
+#guessButton {
+    color: white;
+    background-color: #000;
+    cursor: pointer;
+}

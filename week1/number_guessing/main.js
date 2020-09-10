@@ -27,4 +27,5 @@ function myFunction() {
 
     pastGuesses = pastGuesses + yourInput + '<br>'
     document.getElementById("pastGuesses").innerHTML = pastGuesses
+    document.getElementById("pastGuesses").style.textAlign = 'center'
 }
